@@ -1,1 +1,3 @@
 # traffic_ligth_simulation
+# built with HTML, CSS and Jquery
+# Starts counting down from 60seconds with only the RED Sign ON, on getting to 3seconds the RED Sign turns OFF, and the YELLOW Sign comes up, and finally, on getting to 0seconds, the YELLOW Sign turns OFF and the GREEN Sign comes ON and start counting from 0 back to  60, it remains ON until it get to 60seconds before turning OFF and the RED Sign turns ON and the count down begins again  
