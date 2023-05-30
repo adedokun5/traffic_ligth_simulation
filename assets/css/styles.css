@@ -1,0 +1,88 @@
+.traffic-container{
+	width: 110px;
+	height: 380px;
+	border: 1px solid;
+	border-radius: 5px;
+	background-color: rgb( 0, 0, 0 );
+	margin: 0px auto 0px auto;
+}
+
+.traffic{
+	width: 100px;
+	height: 370px;
+	border: 1px solid;
+	border-radius: 5px;
+	text-align: center;
+	background-color: rgb( 70, 65, 70 );
+	margin: 4px auto 0px auto;
+}
+
+.counter-section, .green-section, .yellow-section, .red-section{
+	display: flex;
+	justify-content: center;
+}
+
+.green-section, .yellow-section, .red-section{
+	margin: 0% auto 10% auto;
+	width: 61px;
+	height: 55px;
+	padding: 4px 0px 0px 0px;
+	border-radius: 50%;
+}
+
+.red-section{
+	border: 1px solid rgb( 246, 61, 79 );
+	background-color: rgb( 246, 61, 79 ); 
+}
+
+.yellow-section{
+	border: 1px solid rgb( 255, 255, 5 );
+	background-color: rgb( 255, 255, 5 ); 
+}
+
+.green-section{
+	border: 1px solid rgb(49, 255, 15);
+	background-color: rgb(49, 255, 15);
+}
+
+#green_light, #yellow_light, #red_light {
+	width: 50px;
+	height: 50px;
+	display: block;
+	border-radius: 50%;
+}
+
+#counter{
+	font-size: 50px;
+}
+
+.on-red{
+	background-color: rgb( 246, 61, 79 );
+	border: 1px solid rgb( 246, 61, 79 );
+}
+
+.on-yellow{
+	background-color: rgb( 255, 255, 5 );
+	border: 1px solid rgb( 255, 255, 5 );
+}
+
+.on-green{
+	background-color: rgb(49, 255, 15);
+	border: 1px solid rgb(49, 255, 15);
+}
+
+.red{
+	color: rgb( 246, 61, 79 );
+}
+
+.yellow{
+	color: rgb( 248, 239, 98 );
+}
+
+.green{
+	color: rgb(49, 255, 15);
+}
+
+.white-bg{
+	background-color: rgb(255, 255, 255);
+}
